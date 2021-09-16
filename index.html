@@ -1,9 +1,51 @@
  <!DOCTYPE html>
 <html>
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
 
+	
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="js/script2.js"></script>
+
+    <h1 style="text-align:center">Human Latency estimation</h1>
+
+
+    <div>
+    	<img id = "image" src="images/reference_1.jpg" class = "center">
+    </div>
+
+
+    <div>
+        <div class="timer">
+            <span class="minute">00</span>:<span class="second">00</span>:<span class="millisecond">00</span>
+        </div>
+        
+        <div class="control">
+            <span><button onClick="timer.start()" class = "navitem">Start</button>
+            <button onClick="timer.stop()" class = "navitem2">Stop</button>
+            <button onClick="timer.reset()" class = "navitem2">Reset</button></span> 
+            <input type="Num Objects" id="# Objects" class = "navitem">
+            <button onclick="myFunction()" class = "navitem2">NumObjects</button>
+            <h3 id="value"></h3>
+        </div>
+    
+	</div>
+	<!--
+    <div class = "button_center">
+        <input type="Num Objects" id="# Objects">
+		<button onclick="myFunction()">Try it</button>
+		<h3 id="value"></h3>
+	</div>-->
+
+    
+    
+    
+	
 </body>
+
 </html> 
+
