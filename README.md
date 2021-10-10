@@ -2,7 +2,7 @@
 
 This repository contains files to store human performance for the task of counting, in any dataset. 
 Clone the repository and follow the video instruction to test the human level performance on the challenging task.
-In this case, we are interested in counting the number of cars, trucks and buses (together, class-wise split not required) per image, from the COCO Dataset.
+In this case, we are interested in counting the number of **cars, trucks and buses** (together, class-wise split not required) per image, from the COCO Dataset.
 
 # Annotation procedure
 
