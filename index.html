@@ -4,18 +4,23 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
-
+<body> 
+    
 
 	
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
-    <script src="js/script2.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.js"></script>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    <script src="js/script3.js"></script>
+    <script src="npyjs/index.js"></script>
+
 
     <h1 style="text-align:center">Human Latency estimation</h1>
 
 
-    <div>
-    	<img id = "image" src="images/reference_1.jpg" class = "center">
+    <div> 
+    	<img id = "image" src="images/reference_0.jpg" class = "center">
     </div>
 
 
@@ -28,8 +33,9 @@
             <span><button onClick="timer.start()" class = "navitem">Start</button>
             <button onClick="timer.stop()" class = "navitem2">Stop</button>
             <button onClick="timer.reset()" class = "navitem2">Reset</button></span> 
-            <input type="Num Objects" id="# Objects" class = "navitem">
-            <button onclick="myFunction()" class = "navitem2">NumObjects</button>
+            <input type="number" id="Objects" class = "navitem"/>
+            <button onClick="timer.save()" id="numobj" class = "navitem2">Save</button>
+            <button onClick="timer.submit()" id="submit" class = "navitem2">submit</button>
             <h3 id="value"></h3>
         </div>
     
